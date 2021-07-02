@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsAct">
+
+    <LinearLayout
+        android:id="@+id/llOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtOptionsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_options_title"
+            android:textSize="@dimen/font_size_options_title"
+            />
+
+        <EditText
+            android:id="@+id/edtOptionsIp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_options_ip"
+            android:inputType="text"
+            android:textSize="@dimen/font_size"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/edtOptionsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Value"
+            android:inputType="text"
+            android:textSize="@dimen/font_size"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnOptionsSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="optionsOnClick"
+            android:text="@string/btn_options_save"
+            />
+
+        <Button
+            android:id="@+id/btnOptionsDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="optionsOnClick"
+            android:text="@string/btn_options_delete"
+            />
+
+        <Button
+            android:id="@+id/btnOptionsBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="optionsOnClick"
+            android:text="@string/btn_options_back"
+            />
+
+        <Button
+            android:id="@+id/btnOptionsAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="optionsOnClick"
+            android:text="@string/btn_options_auto"
+            />
+
+        <ListView
+            android:id="@+id/listOptionsSavedIp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

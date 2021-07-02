@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">To server</string>
+    // Main activities
+    <string name="btn_open">Open</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_options">Options</string>
+    <string name="txt_options_ip">IP: </string>
+    <string name="txt_options_hostname">Hostname: </string>
+    <string name="txt_options_status">Status</string>
+
+    // Options
+    <string name="txt_options_title">Options</string>
+    <string name="edt_options_ip">IP: xxx.xxx.xxx.xxx</string>
+    <string name="btn_options_back">Back</string>
+    <string name="btn_options_save">Save</string>
+    <string name="btn_options_auto">Auto</string>
+    <string name="btn_options_delete">Delete</string>
+</resources>
